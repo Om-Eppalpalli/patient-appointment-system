@@ -1,0 +1,71 @@
+.patient-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif; /* Change font-family */
+    background-color: #f5f5f5; /* Add background color */
+  }
+  
+  .patient-detail-title {
+    font-size: 36px; /* Increase font size */
+    text-align: center;
+    margin-bottom: 30px; /* Increase margin */
+    color: #333; /* Change title color */
+  }
+  
+  .patient-detail-content {
+    text-align: center;
+  }
+  
+  .patient-detail-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .patient-detail-wrap {
+    margin-bottom: 30px; /* Increase margin */
+  }
+  
+  .patient-detail-field {
+    margin-bottom: 20px; /* Increase margin */
+  }
+  
+  .patient-detail-label {
+    font-size: large;
+    font-weight: bold;
+    margin-right: 5px;
+    color: #555; /* Change label color */
+  }
+  
+  .patient-detail-value {
+    font-size: 20px; /* Increase font size */
+    color: #01a9ac; /* Change value color */
+  }
+  
+  .patient-detail-photo {
+    max-width: 45%; /* Make image responsive */
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add box shadow */
+  }
+  
+  .patient-detail-loading {
+    font-size: 20px;
+    color: #888;
+    margin-top: 30px; /* Increase margin */
+  }
+  
+  .appointments-list{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: large;
+  }
+
+  .appointment-detail-value{
+    color: #01a9ac;
+  }
